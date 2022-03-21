@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #CCCDC9;
+    height: 60px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navbar a {
+float: right;
+    color: #161311;
+    text-align: center;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.navbar a:hover {
+    background-color: #161311;
+    color: #CCCDC9;
+}
+
+.navbar a:active {
+    background-color: #F29925;
+    color: #161311;
+}
+
+.main_logo {
+    max-width: 40%;
+    max-height: 40%;
+    padding: 1.5% 1.5%;
+}
