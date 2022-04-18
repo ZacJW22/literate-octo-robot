@@ -7,6 +7,8 @@ body {
     background-color: #CCCDC9;
     height: 60px;
 }
+
+/* Markdown Note 1 - Navbar */
 .navbar ul {
     display: flex;
     justify-content: space-around;
@@ -47,3 +49,64 @@ body {
     max-width: 100%;
     max-height: 80%;
 }
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.subHeading {
+    font-style: italic;
+    text-align: center;
+    padding: 2%;
+}
+
+.headline {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+
+.homeText {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    padding-bottom: 3%;
+}
+
+.gallery {
+    height: 45%;
+    width: 45%;
+    padding: 1%;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+
+.lowerImage {
+    left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+    padding-bottom: 0%;
+}
+
+/* Markdown Note 2 - Footer */
+.footer {
+    background-color: #000;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: #CCCDC9;
+    padding-left: 10%;
+}
+
